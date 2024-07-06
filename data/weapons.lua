@@ -1,11 +1,26 @@
 return {
 	Weapons = {
+		['WEAPON_BATTLERIFLE'] = {
+			label = 'Battle Rifle',
+			weight = 3300,
+			durability = 0.03,
+			ammoname = 'ammo-rifle2',
+		},
+
+		['WEAPON_SNOWLAUNCHER'] = {
+			label = 'Snowball Launcher',
+			weight = 1000,
+			durability = 0.03,
+			ammoname = 'WEAPON_SNOWBALL',
+		},
+
 		['WEAPON_TECPISTOL'] = {
 			label = 'Tactical SMG',
 			weight = 1500,
 			durability = 0.075,
 			ammoname = 'ammo-9',
 		},
+
 		['WEAPON_ADVANCEDRIFLE'] = {
 			label = 'Advanced Rifle',
 			weight = 3100,
@@ -212,6 +227,7 @@ return {
 		['WEAPON_FIREEXTINGUISHER'] = {
 			label = 'Fire Extinguisher',
 			weight = 8616,
+            durability = 0.006
 		},
 
 		['WEAPON_FIREWORK'] = {
@@ -443,8 +459,8 @@ return {
 		},
 
 		['WEAPON_PETROLCAN'] = {
-			label = 'Gas Can',
-			weight = 12000,
+			label = 'Jerry Can',
+			weight = 4000,
 		},
 
 		['WEAPON_GADGETPISTOL'] = {
@@ -745,7 +761,7 @@ return {
 					`COMPONENT_AT_AR_SUPP`,
 					`COMPONENT_AT_AR_SUPP_02`,
 					`COMPONENT_AT_SR_SUPP`,
-					`COMPONENT_AT_SR_SUPP_03`
+					`COMPONENT_AT_SR_SUPP_03`,
 				},
 				usetime = 2500
 			}
@@ -859,6 +875,7 @@ return {
 					`COMPONENT_SPECIALCARBINE_CLIP_02`,
 					`COMPONENT_SPECIALCARBINE_MK2_CLIP_02`,
 					`COMPONENT_TACTICALRIFLE_CLIP_02`,
+					`COMPONENT_BATTLERIFLE_CLIP_02`,
 				},
 				usetime = 2500
 			}
